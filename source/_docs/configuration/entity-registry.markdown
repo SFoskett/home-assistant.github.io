@@ -44,7 +44,7 @@ As a user, you can change the `entity_id` and add the `name` and `disabled_by`
 value to each entry.
 
  - The value of `name` will override the name of the entity as given by the
-   integration.
+   integration and will be used as `friendly_name` in Home Assistant.
 
    _Added in Home Assistant 0.64._
  - The key `disabled_by` can either be `hass` or `user`. This functionality
